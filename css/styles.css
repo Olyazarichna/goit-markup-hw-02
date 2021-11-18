@@ -1,0 +1,20 @@
+:root {
+  --mail-color: #2f303a;
+  --bg-second-part: #e5e5e5;
+  --bg-our-team: #f5f4fa;
+}
+body {
+  color: #212121;
+}
+/* logo */
+
+.nav-list:hover,
+.nav-list:focus {
+  color: #2196f3;
+}
+
+/* button */
+.btn {
+  color: #2196f3;
+  cursor: pointer;
+}
