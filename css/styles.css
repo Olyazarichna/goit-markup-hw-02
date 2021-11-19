@@ -41,7 +41,7 @@ body {
   text-decoration: none;
 }
 .contact {
-  color: #757575;
+  color: var(--bg-second-color);
 }
 /* Section hero */
 .hero {
@@ -96,6 +96,9 @@ body {
   line-height: 1.13;
 }
 /* Our team */
+.team {
+  background-color: #f5f4fa;
+}
 .subtinte {
   font-size: 16px;
   font-weight: 500;
