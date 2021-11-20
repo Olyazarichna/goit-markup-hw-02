@@ -33,6 +33,9 @@ body {
 .nav-list:focus {
   color: var(--accent-color);
 }
+.active .btn.current {
+  color: var(--accent-color);
+}
 .nav-list,
 .contact {
   font-size: 14px;
@@ -41,7 +44,7 @@ body {
   text-decoration: none;
 }
 .contact {
-  color: var(--bg-second-color);
+  color: #757575;
 }
 /* Section hero */
 .hero {
@@ -52,6 +55,7 @@ body {
   font-weight: 900;
   line-height: 1.36;
   color: #ffffff;
+  text-transform: uppercase;
 }
 
 /* Button portfolio */
@@ -60,7 +64,7 @@ body {
   cursor: pointer;
 }
 .btn.list-btn {
-  background-color: #eeeeee;
+  background-color: var(--bg-second-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -78,11 +82,16 @@ body {
   font-size: 16px;
   line-height: 1.87;
 }
+.offer:hover,
+.offer:focus {
+  background-color: #188ce8;
+}
 /* section princeples of work*/
 .heading {
   font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
+  text-transform: uppercase;
 }
 .text {
   color: #757575;
@@ -99,10 +108,13 @@ body {
 .team {
   background-color: #f5f4fa;
 }
-.subtinte {
+.subtitle,
+.subtitle.desc {
   font-size: 16px;
+  line-height: 1.17;
+}
+.subtitle {
   font-weight: 500;
-  line-height: 1.18;
 }
 .desc {
   color: #757575;
